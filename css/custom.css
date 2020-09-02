@@ -321,7 +321,7 @@ padding-top: 15px;
 
 /*media for mobiles*/
 
-@media screen and (max-width: 575px){
+@media screen and (max-width: 750px){
   .t-btn{
 	  display: none;
   }
@@ -756,6 +756,8 @@ padding-top: 15px;
     width:30px;
     padding-right: 10px;
     margin-top: 40px;
+    align-items: center;
+    justify-content: center;
 }
 		  
   }
@@ -766,7 +768,7 @@ padding-top: 15px;
 
   /* Large screen and laptops*/
 
-@media only screen and (min-width: 1250px) and (max-width: 1440px){
+@media only screen and (min-width: 1250px) and (max-width: 2340px){
     /*intro*/
     .navclass{
         margin-left: -40px!important;
